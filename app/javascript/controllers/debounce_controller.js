@@ -9,7 +9,6 @@ export default class extends Controller {
 
   search() {
     clearTimeout(this.timeOut);
-    debugger;
     this.timeOut = setTimeout(() => {
       this.formTarget.requestSubmit();
     }, 500);
